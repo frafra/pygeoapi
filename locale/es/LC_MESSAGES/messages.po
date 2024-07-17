@@ -1,23 +1,22 @@
-# Bosnian translations for PROJECT.
-# Copyright (C) 2024 ORGANIZATION
+# Spanish translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+# FIRST AUTHOR <idee@transportes.gob.es>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-02-27 14:39+0100\n"
-"PO-Revision-Date: 2024-02-27 14:40+0100\n"
-"Last-Translator: Bojan Kuzmanović <bojan.kuzmanovic@student.etf.unibl.org>\n"
-"Language: bs\n"
-"Language-Team: bs <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: 2024-06-28 13:12+0200\n"
+"PO-Revision-Date: 2024-07-01 13:15+0200\n"
+"Last-Translator: IDEE <idee@transportes.gob.es>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: pygeoapi/templates/_base.html:51
 msgid "Admin"
@@ -25,7 +24,7 @@ msgstr "Admin"
 
 #: pygeoapi/templates/_base.html:67 pygeoapi/templates/landing_page.html:2
 msgid "Home"
-msgstr "Početna"
+msgstr "Inicio"
 
 #: pygeoapi/templates/_base.html:75 pygeoapi/templates/_base.html:83
 msgid "json"
@@ -37,65 +36,64 @@ msgstr "jsonld"
 
 #: pygeoapi/templates/_base.html:105
 msgid "Powered by "
-msgstr "Pokreće ga"
+msgstr "Desarrollado por "
 
 #: pygeoapi/templates/conformance.html:2 pygeoapi/templates/conformance.html:4
 #: pygeoapi/templates/conformance.html:8
 #: pygeoapi/templates/landing_page.html:86
 msgid "Conformance"
-msgstr "Usklađenost"
+msgstr "Conformidad"
 
 #: pygeoapi/templates/exception.html:2 pygeoapi/templates/exception.html:5
 msgid "Exception"
-msgstr "Izuzetak"
+msgstr "Excepción"
 
 #: pygeoapi/templates/landing_page.html:25
 msgid "Terms of service"
-msgstr "Uslovi korišćenja"
+msgstr "Términos del servicio"
 
 #: pygeoapi/templates/collections/collection.html:38
 #: pygeoapi/templates/landing_page.html:35
 msgid "License"
-msgstr "Licensa"
+msgstr "Licencia"
 
 #: pygeoapi/templates/collections/collection.html:6
-#: pygeoapi/templates/collections/coverage/domainset.html:4
-#: pygeoapi/templates/collections/coverage/rangetype.html:4
 #: pygeoapi/templates/collections/edr/query.html:4
 #: pygeoapi/templates/collections/index.html:2
 #: pygeoapi/templates/collections/index.html:4
 #: pygeoapi/templates/collections/items/index.html:4
 #: pygeoapi/templates/collections/items/item.html:27
 #: pygeoapi/templates/collections/queryables.html:4
+#: pygeoapi/templates/collections/schema.html:4
 #: pygeoapi/templates/collections/tiles/index.html:4
 #: pygeoapi/templates/collections/tiles/metadata.html:4
 #: pygeoapi/templates/landing_page.html:48
 #: pygeoapi/templates/stac/collection_base.html:19
 msgid "Collections"
-msgstr "Kolekcije"
+msgstr "Colecciones"
 
 #: pygeoapi/templates/landing_page.html:50
 msgid "View the collections in this service"
-msgstr "Pogledajte kolekcije u ovoj usluzi"
+msgstr "Ver las colecciones de este servicio"
 
 #: pygeoapi/templates/landing_page.html:56
 msgid "SpatioTemporal Assets"
-msgstr "Prostorno-vremenski resursi"
+msgstr "SpatioTemporal Assets"
 
 #: pygeoapi/templates/landing_page.html:58
 msgid "View the SpatioTemporal Assets in this service"
-msgstr "Pretražite prostorno-vremenske resurse u ovoj usluzi"
+msgstr "Ver los SpatioTemporal Assets de este servicio"
 
 #: pygeoapi/templates/landing_page.html:64
 #: pygeoapi/templates/processes/index.html:2
 #: pygeoapi/templates/processes/index.html:4
 #: pygeoapi/templates/processes/process.html:4
 msgid "Processes"
-msgstr "Procesi"
+msgstr "Procesos"
 
 #: pygeoapi/templates/landing_page.html:66
 msgid "View the processes in this service"
-msgstr "Pogledajte procese u ovoj usluzi"
+msgstr "Ver los procesos de este servicio"
 
 #: pygeoapi/templates/jobs/index.html:2 pygeoapi/templates/jobs/index.html:4
 #: pygeoapi/templates/jobs/index.html:11 pygeoapi/templates/jobs/job.html:4
@@ -103,20 +101,20 @@ msgstr "Pogledajte procese u ovoj usluzi"
 #: pygeoapi/templates/landing_page.html:70
 #: pygeoapi/templates/processes/process.html:76
 msgid "Jobs"
-msgstr "Zadaci"
+msgstr "Tareas"
 
 #: pygeoapi/templates/landing_page.html:72
 #: pygeoapi/templates/processes/process.html:77
 msgid "Browse jobs"
-msgstr "Pregledajte zadatke"
+msgstr "Ver tareas"
 
 #: pygeoapi/templates/landing_page.html:77
 msgid "API Definition"
-msgstr "API definicija"
+msgstr "Definición de API"
 
 #: pygeoapi/templates/landing_page.html:79
 msgid "Documentation"
-msgstr "Dokumentacija"
+msgstr "Documentación de peticiones"
 
 #: pygeoapi/templates/landing_page.html:79
 msgid "Swagger UI"
@@ -128,39 +126,39 @@ msgstr "ReDoc"
 
 #: pygeoapi/templates/landing_page.html:82
 msgid "OpenAPI Document"
-msgstr "OpenAPI dokument"
+msgstr "Documento OpenAPI"
 
 #: pygeoapi/templates/landing_page.html:88
 msgid "View the conformance classes of this service"
-msgstr "Poglejte klase usklađenosti ove usluge"
+msgstr "Ver las clases de conformidad de este servicio"
 
 #: pygeoapi/templates/landing_page.html:92
 msgid "Tile Matrix Sets"
-msgstr "Matrica tile-ova"
+msgstr "Tile Matrix Sets"
 
 #: pygeoapi/templates/landing_page.html:94
 msgid "View the Tile Matrix Sets available on this service"
-msgstr "Pogledajte matrice tile-ova dostupne u ovoj usluzi"
+msgstr "Ver los Tile Matrix Sets disponibles en este servicio"
 
 #: pygeoapi/templates/landing_page.html:101
 msgid "Provider"
-msgstr "Provajder"
+msgstr "Proveedor"
 
 #: pygeoapi/templates/landing_page.html:110
 msgid "Contact point"
-msgstr "Kontakt tačka"
+msgstr "Punto de contacto"
 
 #: pygeoapi/templates/landing_page.html:113
 msgid "Address"
-msgstr "Adresa"
+msgstr "Dirección"
 
 #: pygeoapi/templates/landing_page.html:122
 msgid "Email"
-msgstr "Email"
+msgstr "Correo electrónico"
 
 #: pygeoapi/templates/landing_page.html:125
 msgid "Telephone"
-msgstr "Telefon"
+msgstr "Teléfono"
 
 #: pygeoapi/templates/landing_page.html:129
 msgid "Fax"
@@ -168,197 +166,165 @@ msgstr "Fax"
 
 #: pygeoapi/templates/landing_page.html:133
 msgid "Contact URL"
-msgstr "Konktakt URL"
+msgstr "URL de contacto"
 
 #: pygeoapi/templates/landing_page.html:137
 msgid "Hours"
-msgstr "Sati"
+msgstr "Horario"
 
 #: pygeoapi/templates/landing_page.html:141
 msgid "Contact instructions"
-msgstr "Konktakt instrukcije"
+msgstr "Instrucciones de contacto"
 
 #: pygeoapi/templates/collections/collection.html:51
 msgid "Browse"
-msgstr "Pretražite"
+msgstr "Explorar"
 
 #: pygeoapi/templates/collections/collection.html:55
 msgid "Browse Items"
-msgstr "Pretražite stavke"
+msgstr "Ver los objetos"
 
 #: pygeoapi/templates/collections/collection.html:56
 msgid "Browse through the items of"
-msgstr "Pretražite kroz stavke od"
+msgstr "Ver los objetos de"
 
 #: pygeoapi/templates/collections/collection.html:59
 #: pygeoapi/templates/collections/queryables.html:6
 #: pygeoapi/templates/collections/queryables.html:17
 msgid "Queryables"
-msgstr "Upitni"
+msgstr "Atributos consultables"
 
 #: pygeoapi/templates/collections/collection.html:63
 msgid "Display Queryables"
-msgstr "Prikaži upitne"
+msgstr "Mostrar los atributos consultables"
 
 #: pygeoapi/templates/collections/collection.html:64
 msgid "Display Queryables of"
-msgstr "Prikaži upitne od"
+msgstr "Mostrar los atributos consultables de"
 
-#: pygeoapi/templates/collections/collection.html:69
+#: pygeoapi/templates/collections/collection.html:67
+#: pygeoapi/templates/collections/schema.html:6
+#: pygeoapi/templates/collections/schema.html:17
+msgid "Schema"
+msgstr "Esquema"
+
+#: pygeoapi/templates/collections/collection.html:71
+msgid "Display Schema"
+msgstr "Mostrar esquema"
+
+#: pygeoapi/templates/collections/collection.html:72
+msgid "Display Schema of"
+msgstr "Mostrar el esquema de"
+
+#: pygeoapi/templates/collections/collection.html:77
 #: pygeoapi/templates/collections/tiles/index.html:6
 #: pygeoapi/templates/collections/tiles/metadata.html:6
 msgid "Tiles"
-msgstr "Tile-ovi"
+msgstr "Teselas"
 
-#: pygeoapi/templates/collections/collection.html:73
+#: pygeoapi/templates/collections/collection.html:81
 msgid "Display Tiles"
-msgstr "Prikaži tile-ove"
+msgstr "Mostrar las teselas"
 
-#: pygeoapi/templates/collections/collection.html:73
+#: pygeoapi/templates/collections/collection.html:81
 msgid "Display Tiles of"
-msgstr "Prikaži tile-ove od"
+msgstr "Mostrar las teselas de"
 
-#: pygeoapi/templates/collections/collection.html:80
+#: pygeoapi/templates/collections/collection.html:88
 #: pygeoapi/templates/jobs/job.html:50
 #: pygeoapi/templates/processes/process.html:78
 msgid "Links"
-msgstr "Linkovi"
-
-#: pygeoapi/templates/collections/collection.html:90
-msgid "Reference Systems"
-msgstr "Referentni sistemi"
+msgstr "Enlaces"
 
 #: pygeoapi/templates/collections/collection.html:98
+msgid "Reference Systems"
+msgstr "Sistemas de referencia"
+
+#: pygeoapi/templates/collections/collection.html:106
 msgid "Storage CRS"
-msgstr "Skladišni CRS"
+msgstr "SRC de almacenamiento"
+
+#: pygeoapi/templates/collections/index.html:8
+msgid "Data collections in this service"
+msgstr "Colecciones de datos en este servicio"
 
 #: pygeoapi/templates/collections/index.html:12
+#: pygeoapi/templates/collections/index.html:39
 #: pygeoapi/templates/processes/index.html:14
 #: pygeoapi/templates/stac/catalog.html:17
 #: pygeoapi/templates/stac/collection.html:17
 msgid "Name"
-msgstr "Naziv"
+msgstr "Nombre"
 
 #: pygeoapi/templates/collections/index.html:13
-#: pygeoapi/templates/stac/catalog.html:18
-msgid "Type"
-msgstr "Tip"
-
-#: pygeoapi/templates/collections/index.html:14
+#: pygeoapi/templates/collections/index.html:40
 #: pygeoapi/templates/processes/index.html:15
 #: pygeoapi/templates/processes/process.html:26
 #: pygeoapi/templates/processes/process.html:56
 #: pygeoapi/templates/stac/collection.html:18
 #: pygeoapi/templates/tilematrixsets/index.html:16
 msgid "Description"
-msgstr "Opis"
+msgstr "Descripción"
 
-#: pygeoapi/templates/collections/coverage/domainset.html:11
-msgid "Coverage domain set"
-msgstr "Pokrivenost domenskog skupa"
-
-#: pygeoapi/templates/collections/coverage/domainset.html:12
-msgid "Axis labels"
-msgstr "Labele osa"
-
-#: pygeoapi/templates/collections/coverage/domainset.html:18
-msgid "Extent"
-msgstr "Extent"
-
-#: pygeoapi/templates/collections/coverage/domainset.html:24
-msgid "Coordinate reference system"
-msgstr "Koordinate referentnog sistema"
-
-#: pygeoapi/templates/collections/coverage/domainset.html:26
-#: pygeoapi/templates/stac/catalog.html:20
-#: pygeoapi/templates/stac/collection_base.html:34
-#: pygeoapi/templates/stac/item.html:34
-msgid "Size"
-msgstr "Veličina"
-
-#: pygeoapi/templates/collections/coverage/domainset.html:28
-msgid "width"
-msgstr "širina"
-
-#: pygeoapi/templates/collections/coverage/domainset.html:29
-msgid "height"
-msgstr "visina"
-
-#: pygeoapi/templates/collections/coverage/domainset.html:31
-msgid "Resolution"
-msgstr "Rezolucija"
-
-#: pygeoapi/templates/collections/coverage/domainset.html:33
-msgid "x"
-msgstr "x"
-
-#: pygeoapi/templates/collections/coverage/domainset.html:34
-msgid "y"
-msgstr "y"
-
-#: pygeoapi/templates/collections/coverage/rangetype.html:11
-msgid "Coverage range type"
-msgstr "Pokrivenost tipa opsega"
-
-#: pygeoapi/templates/collections/coverage/rangetype.html:12
-msgid "Fields"
-msgstr "Polja"
+#: pygeoapi/templates/collections/index.html:35
+msgid "Record collections in this service"
+msgstr "Colecciones de registros en este servicio"
 
 #: pygeoapi/templates/collections/edr/query.html:11
 #: pygeoapi/templates/collections/items/index.html:11
 #: pygeoapi/templates/collections/items/item.html:33
 msgid "Items"
-msgstr "Stavke"
+msgstr "Objetos"
 
 #: pygeoapi/templates/collections/items/index.html:25
 msgid "Items in this collection"
-msgstr "Stavke u ovoj kolekciji"
+msgstr "Objetos en esta colección"
 
 #: pygeoapi/templates/collections/items/index.html:38
 msgid "Warning: Higher limits not recommended!"
-msgstr "Upozorenje: Veće granice nisu preporučljivi!"
+msgstr "Atención: No se recomiendan límites superiores"
 
 #: pygeoapi/templates/collections/items/index.html:43
 msgid "Limit"
-msgstr "Granica"
+msgstr "Límite"
 
 #: pygeoapi/templates/collections/items/index.html:45
 msgid "default"
-msgstr "podrazumijevano"
+msgstr "por defecto"
 
 #: pygeoapi/templates/collections/items/index.html:66
 #: pygeoapi/templates/collections/items/item.html:62
 msgid "Prev"
-msgstr "Prethodno"
+msgstr "Anterior"
 
 #: pygeoapi/templates/collections/items/index.html:68
 #: pygeoapi/templates/collections/items/item.html:64
 msgid "Next"
-msgstr "Sljedeće"
+msgstr "Siguiente"
 
 #: pygeoapi/templates/collections/items/index.html:139
 msgid "No items"
-msgstr "Nema stavki"
+msgstr "No hay objetos"
 
 #: pygeoapi/templates/collections/items/item.html:77
 #: pygeoapi/templates/stac/collection_base.html:58
 #: pygeoapi/templates/stac/item.html:58
 msgid "Property"
-msgstr "Svojstvo"
+msgstr "Propiedad"
 
 #: pygeoapi/templates/collections/items/item.html:78
 #: pygeoapi/templates/stac/collection_base.html:59
 #: pygeoapi/templates/stac/item.html:59
 msgid "Value"
-msgstr "Vrijednost"
+msgstr "Valor"
 
 #: pygeoapi/templates/collections/tiles/index.html:31
 msgid "Tile Matrix Set"
-msgstr "Matrica tile-ova"
+msgstr "Tile Matrix Set"
 
 #: pygeoapi/templates/collections/tiles/index.html:42
 msgid "Metadata"
-msgstr "Meta podaci"
+msgstr "Metadatos"
 
 #: pygeoapi/templates/collections/tiles/metadata.html:15
 msgid "TileJSON"
@@ -370,99 +336,99 @@ msgstr "JSON"
 
 #: pygeoapi/templates/jobs/index.html:14
 msgid "Job ID"
-msgstr "ID zadatka"
+msgstr "ID tarea"
 
 #: pygeoapi/templates/jobs/index.html:15
 msgid "Process ID"
-msgstr "ID procesa"
+msgstr "ID proceso"
 
 #: pygeoapi/templates/jobs/index.html:16
 msgid "Start"
-msgstr "Početak"
+msgstr "Inicio"
 
 #: pygeoapi/templates/jobs/index.html:17 pygeoapi/templates/jobs/job.html:37
 msgid "Duration"
-msgstr "Trajanje"
+msgstr "Duración"
 
 #: pygeoapi/templates/jobs/index.html:18 pygeoapi/templates/jobs/job.html:17
 #: pygeoapi/templates/jobs/job.html:35
 msgid "Progress"
-msgstr "Napredak"
+msgstr "Progreso"
 
 #: pygeoapi/templates/jobs/index.html:19 pygeoapi/templates/jobs/job.html:16
 msgid "Status"
-msgstr "Status"
+msgstr "Estado"
 
 #: pygeoapi/templates/jobs/index.html:20 pygeoapi/templates/jobs/job.html:21
 msgid "Message"
-msgstr "Poruka"
+msgstr "Mensaje"
 
 #: pygeoapi/templates/jobs/job.html:2 pygeoapi/templates/jobs/job.html:10
 msgid "Job status"
-msgstr "Status zadatka"
+msgstr "Estado de la tarea"
 
 #: pygeoapi/templates/jobs/job.html:26
 msgid "Parameters"
-msgstr "Parametri"
+msgstr "Parámetros"
 
 #: pygeoapi/templates/jobs/job.html:45
 msgid "Started processing"
-msgstr "Započeto procesiranje"
+msgstr "Proceso iniciado"
 
 #: pygeoapi/templates/jobs/job.html:47
 msgid "Finished processing"
-msgstr "Završeno procesiranje"
+msgstr "Proceso finalizado"
 
 #: pygeoapi/templates/jobs/results/index.html:2
 msgid "Job result"
-msgstr "Rezuultat zadatka"
+msgstr "Resultado de la tarea"
 
 #: pygeoapi/templates/jobs/results/index.html:6
 msgid "Results"
-msgstr "Rezuultati"
+msgstr "Resultados"
 
 #: pygeoapi/templates/jobs/results/index.html:10
 msgid "Results of job"
-msgstr "Rezultati zadatka"
+msgstr "Resultados de la tarea"
 
 #: pygeoapi/templates/processes/index.html:8
 msgid "Processes in this service"
-msgstr "Procesi u ovoj usluzi"
+msgstr "Procesos en este servicio"
 
 #: pygeoapi/templates/processes/process.html:20
 msgid "Inputs"
-msgstr "Ulazi"
+msgstr "Datos de entrada"
 
 #: pygeoapi/templates/processes/process.html:23
 #: pygeoapi/templates/processes/process.html:54
 msgid "Id"
-msgstr "Id"
+msgstr "ID"
 
 #: pygeoapi/templates/processes/process.html:24
 #: pygeoapi/templates/processes/process.html:55
 #: pygeoapi/templates/tilematrixsets/index.html:15
 msgid "Title"
-msgstr "Naslov"
+msgstr "Título"
 
 #: pygeoapi/templates/processes/process.html:25
 msgid "Data Type"
-msgstr "Vrst podataka"
+msgstr "Tipo de dato"
 
 #: pygeoapi/templates/processes/process.html:51
 msgid "Outputs"
-msgstr "Izlazi"
+msgstr "Datos de salida"
 
 #: pygeoapi/templates/processes/process.html:71
 msgid "Execution modes"
-msgstr "Modovi izvršavanja"
+msgstr "Modos de ejecución"
 
 #: pygeoapi/templates/processes/process.html:73
 msgid "Synchronous"
-msgstr "Sinhroni"
+msgstr "Síncrono"
 
 #: pygeoapi/templates/processes/process.html:74
 msgid "Asynchronous"
-msgstr "Asinhroni"
+msgstr "Asíncrono"
 
 #: pygeoapi/templates/stac/catalog.html:4
 #: pygeoapi/templates/stac/collection.html:2
@@ -470,20 +436,30 @@ msgstr "Asinhroni"
 #: pygeoapi/templates/stac/collection_base.html:4
 #: pygeoapi/templates/stac/item.html:4
 msgid "SpatioTemporal Asset Catalog"
-msgstr "Prostorno-vremenski katalog resursa"
+msgstr "Catálogo de SpatioTemporal Asset"
+
+#: pygeoapi/templates/stac/catalog.html:18
+msgid "Type"
+msgstr "Tipo"
 
 #: pygeoapi/templates/stac/catalog.html:19
 msgid "Last modified"
-msgstr "Zadnji put izmijenjeno"
+msgstr "Última modificación"
+
+#: pygeoapi/templates/stac/catalog.html:20
+#: pygeoapi/templates/stac/collection_base.html:34
+#: pygeoapi/templates/stac/item.html:34
+msgid "Size"
+msgstr "Tamaño"
 
 #: pygeoapi/templates/stac/collection.html:9
 msgid "STAC Version"
-msgstr "STAC verzija"
+msgstr "Versión STAC"
 
 #: pygeoapi/templates/stac/collection_base.html:28
 #: pygeoapi/templates/stac/item.html:28
 msgid "Assets"
-msgstr "Resursi"
+msgstr "Assets"
 
 #: pygeoapi/templates/stac/collection_base.html:32
 #: pygeoapi/templates/stac/item.html:32
@@ -493,157 +469,46 @@ msgstr "URL"
 #: pygeoapi/templates/stac/collection_base.html:33
 #: pygeoapi/templates/stac/item.html:33
 msgid "Last Modified"
-msgstr "Zadnji put izmijenjeno"
+msgstr "Última modificación"
 
 #: pygeoapi/templates/stac/collection_base.html:64
 #: pygeoapi/templates/stac/item.html:64
 msgid "id"
-msgstr "id"
+msgstr "ID"
 
 #: pygeoapi/templates/stac/collection_base.html:68
 msgid "description"
-msgstr "opis"
+msgstr "Descripción"
 
 #: pygeoapi/templates/stac/collection_base.html:72
 msgid "extent"
-msgstr "extent"
+msgstr "Extensión"
 
 #: pygeoapi/templates/stac/collection_base.html:77
 msgid "cube:dimensions"
-msgstr "kocka:dimenzije"
+msgstr "cubo:dimensiones"
 
 #: pygeoapi/templates/stac/collection_base.html:83
 msgid "cube:variables"
-msgstr "kocka:varijable"
+msgstr "cubo:variables"
 
 #: pygeoapi/templates/stac/item.html:19
 msgid "Item"
-msgstr "Stavka"
+msgstr "Objeto"
 
 #: pygeoapi/templates/tilematrixsets/index.html:2
 #: pygeoapi/templates/tilematrixsets/index.html:4
+#: pygeoapi/templates/tilematrixsets/tilematrixset.html:4
 msgid "TileMatrixSets"
-msgstr ""
+msgstr "Tile Matrix Sets"
 
 #: pygeoapi/templates/tilematrixsets/index.html:9
 msgid "Tile matrix sets available in this service"
-msgstr "Matrica tile-ova dostupna u ovoj usluzi"
+msgstr "Tile Matrix Sets disponibles en este servicio"
 
 #: pygeoapi/templates/tilematrixsets/tilematrixset.html:2
-#: pygeoapi/templates/tilematrixsets/tilematrixset.html:4
 msgid "TileMatrixSet"
-msgstr "Matrica tile-ova"
-
-msgid "This document as JSON"
-msgstr ""
-
-msgid "This document as RDF (JSON-LD)"
-msgstr ""
-
-msgid "This document as HTML"
-msgstr ""
-
-msgid "The OpenAPI definition as JSON"
-msgstr ""
-
-msgid "The list of supported tiling schemes as JSON"
-msgstr ""
-
-msgid "The list of supported tiling schemes as HTML"
-msgstr ""
-
-msgid "The landing page of this server as JSON"
-msgstr ""
-
-msgid "The landing page of this server as HTML"
-msgstr ""
-
-msgid "Schema of collection in JSON"
-msgstr ""
-
-msgid "Schema of collection in HTML"
-msgstr ""
-
-msgid "Queryables for this collection as JSON"
-msgstr ""
-
-msgid "Queryables for this collection as HTML"
-msgstr ""
-
-msgid "Items as GeoJSON"
-msgstr ""
-
-msgid "Items as HTML"
-msgstr ""
-
-msgid "Items as RDF (GeoJSON-LD)"
-msgstr ""
-
-msgid "Coverage data"
-msgstr ""
-
-msgid "Coverage data as"
-msgstr ""
-
-msgid "Tiles as HTML"
-msgstr ""
-
-msgid "Tiles as JSON"
-msgstr ""
-
-msgid "query for this collection as HTML"
-msgstr ""
-
-msgid "query for this collection as JSON"
-msgstr ""
-
-msgid "Items (prev)"
-msgstr ""
-
-msgid "Items (next)"
-msgstr ""
-
-msgid "Process description as JSON"
-msgstr ""
-
-msgid "Process description as HTML"
-msgstr ""
-
-msgid "query for this collection as HTML"
-msgstr ""
-
-msgid "Execution for process as JSON"
-msgstr ""
-
-msgid "Jobs list as JSON"
-msgstr ""
-
-msgid "Jobs list as HTML"
-msgstr ""
-
-msgid "Results of job as JSON"
-msgstr ""
-
-msgid "Results of job as HTML"
-msgstr ""
-
-msgid "The job list for the current process"
-msgstr ""
-
-msgid "TileMatrixSet definition in JSON"
-msgstr ""
-
-msgid "Data collections in this service"
-msgstr ""
-
-msgid "Record collections in this service"
-msgstr ""
-
-msgid "Display Schema"
-msgstr ""
-
-msgid "Display Schema of"
-msgstr ""
+msgstr "Tile Matrix Set"
 
 msgid "Contact"
 msgstr ""

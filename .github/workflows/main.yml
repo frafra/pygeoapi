@@ -4,11 +4,13 @@ on:
   push:
     paths-ignore:
       - '**.md'
+      - 'docs/**'
   pull_request:
     branches:
       - master
     paths-ignore:
       - '!**.md'
+      - 'docs/**'
   release:
     types:
       - released
@@ -65,7 +67,7 @@ jobs:
       with:
         mongodb-version: 4.4
     - name: Install and run SensorThingsAPI
-      uses: cgs-earth/sensorthings-action@v0.0.2
+      uses: cgs-earth/sensorthings-action@v0.1.0
     - name: Install sqlite and gpkg dependencies
       uses: awalsh128/cache-apt-pkgs-action@latest
       with:
@@ -90,7 +92,6 @@ jobs:
         pip3 install -r requirements-dev.txt
         pip3 install -r requirements-provider.txt
         pip3 install -r requirements-django.txt
-        pip3 install -r docs/requirements.txt
         python3 setup.py install
         pip3 install --upgrade numpy elasticsearch
         pip3 install --upgrade numpy "sqlalchemy<2"
@@ -99,10 +100,10 @@ jobs:
     - name: setup test data ⚙️
       run: |
         python3 tests/load_es_data.py tests/data/ne_110m_populated_places_simple.geojson geonameid
-        python3 tests/load_es_data.py tests/cite/canada-hydat-daily-mean-02HC003.geojson IDENTIFIER
         python3 tests/load_mongo_data.py tests/data/ne_110m_populated_places_simple.geojson
         gunzip < tests/data/hotosm_bdi_waterways.sql.gz | psql postgresql://postgres:${{ secrets.DatabasePassword || 'postgres' }}@localhost:5432/test
         psql postgresql://postgres:${{ secrets.DatabasePassword || 'postgres' }}@localhost:5432/test -f tests/data/dummy_data.sql
+        psql postgresql://postgres:${{ secrets.DatabasePassword || 'postgres' }}@localhost:5432/test -f tests/data/dummy_types_data.sql
         docker ps
         python3 tests/load_oracle_data.py
     - name: run unit tests ⚙️
@@ -139,8 +140,6 @@ jobs:
         pytest tests/test_util.py
         pytest tests/test_xarray_netcdf_provider.py
         pytest tests/test_xarray_zarr_provider.py
-    - name: build docs 🏗️
-      run: cd docs && make html
     - name: failed tests 🚩
       if: ${{ failure() }}
       run: |
